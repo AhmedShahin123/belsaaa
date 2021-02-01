@@ -1,0 +1,22 @@
+PUT {{url}}/tasker/assignment_request_tasker/36/accept?XDEBUG_SESSION_START=PHPSTORM
+Authorization: Bearer {{tasker_254_500000001}}
+Accept: application/json
+###
+
+PUT {{url}}/api/tasker/assignment_request_tasker/60/reject?XDEBUG_SESSION_START=PHPSTORM
+Authorization: Bearer {{tasker_token_28}}
+
+###
+
+GET {{url}}/tasker/assignment_request_tasker?XDEBUG_SESSION_START=PHPSTORM
+Authorization: Bearer {{tasker_zoza}}
+Accept: application/json
+
+###
+
+GET {{url}}/tasker/assignment_request_tasker?XDEBUG_SESSION_START=PHPSTORM
+Authorization: Bearer {{tasker_256_500000003}}
+Accept: application/json
+
+###
+

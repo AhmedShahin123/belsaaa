@@ -1,0 +1,4 @@
+[21-Jan-2021 15:42:18 UTC] PHP Fatal error:  Class 'App\Http\Requests\Api\Auth\ForgetPasswordRequest' not found in /home/belsaa/public_html/app/Http/Requests/Api/Employer/Auth/ForgetPasswordRequest.php on line 10
+[21-Jan-2021 15:42:42 UTC] PHP Fatal error:  Class 'App\Http\Requests\Api\Auth\LoginRequest' not found in /home/belsaa/public_html/app/Http/Requests/Api/Employer/Auth/LoginRequest.php on line 12
+[23-Jan-2021 01:38:37 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/belsaa/public_html/app/Http/Requests/Api/Employer/Auth/ChangePasswordRequest.php on line 8
+[25-Jan-2021 13:41:51 UTC] PHP Fatal error:  Class 'App\Http\Requests\Api\Auth\RegisterRequest' not found in /home/belsaa/public_html/app/Http/Requests/Api/Employer/Auth/RegisterRequest.php on line 13

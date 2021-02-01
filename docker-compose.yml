@@ -1,0 +1,64 @@
+version: '3.7'
+services:
+  web:
+    image: webdevops/php-nginx-dev:7.3
+    volumes:
+      - ./:/app
+    environment:
+      WEB_DOCUMENT_ROOT: /app/public
+      XDEBUG_REMOTE_CONNECT_BACK: 1
+      XDEBUG_REMOTE_HOST: ${IP_PREFIX}.1
+      PHP_DATE_TIMEZONE: "${APP_TIMEZONE}"
+#      XDEBUG_CONFIG: "idekey=123"
+#      PHP_IDE_CONFIG: "serverName=_"
+      TZ: "${APP_TIMEZONE}"
+      HTTP_PROXY: ${HTTP_PROXY}
+      HTTPS_PROXY: ${HTTPS_PROXY}
+    depends_on:
+      - db
+    networks:
+      saah:
+        ipv4_address: ${IP_PREFIX}.2
+  db:
+    image: mysql:latest
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: saah
+      MYSQL_USER: saah
+      MYSQL_PASSWORD: saah
+      TZ: "${APP_TIMEZONE}"
+    volumes:
+      - saahdbdata:/var/lib/mysql
+    networks:
+      saah:
+        ipv4_address: ${IP_PREFIX}.3
+
+  dbtest:
+    image: mariadb:10.1
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: saah
+      MYSQL_USER: saah
+      MYSQL_PASSWORD: saah
+      TZ: "${APP_TIMEZONE}"
+    tmpfs:
+      - /var/lib/mysql
+    networks:
+      saah:
+        ipv4_address: ${IP_PREFIX}.5
+
+  mailhog:
+    image: mailhog/mailhog
+    networks:
+      saah:
+        ipv4_address: ${IP_PREFIX}.4
+volumes:
+  saahdbdata:
+
+networks:
+  saah:
+    ipam:
+      config:
+        - subnet: ${IP_PREFIX}.0/24
+

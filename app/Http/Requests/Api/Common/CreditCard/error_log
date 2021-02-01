@@ -1,0 +1,1 @@
+[23-Jan-2021 01:25:19 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/belsaa/public_html/app/Http/Requests/Api/Common/CreditCard/CreateCreditCard.php on line 7

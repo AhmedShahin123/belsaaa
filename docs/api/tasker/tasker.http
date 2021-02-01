@@ -1,0 +1,113 @@
+PUT {{url}}/tasker/tasker?XDEBUG_SESSION_START=PHPSTORM
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{tasker_255_500000002}}
+
+{
+    "working_days": {
+        "days": [
+            {
+                "weekday": "wednesday",
+                "shift_day": false,
+                "shift_night": true
+            },
+            {
+                "weekday": "saturday",
+                "shift_day": true,
+                "shift_night": false
+            }
+        ],
+        "repeat": true
+    }
+}
+
+###
+
+PUT http://saah.local/api/tasker/tasker?XDEBUG_SESSION_START=PHPSTORM
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNjI2YzY0YzVlMjM5NTBkYjg1ZWUwMWRmYmUwMjE0NGQ4OGU0ODQzN2VlMjQ3NmE1MzQzNTJlYzNhZWRjNWNiZDc3MGRjNDVmZWRlY2FjZWMiLCJpYXQiOjE1ODAzODkwMDcsIm5iZiI6MTU4MDM4OTAwNywiZXhwIjoxNzY5Nzc3ODA3LCJzdWIiOiIyMiIsInNjb3BlcyI6WyJ0YXNrZXIiXX0.oIPYokdGEXIxQ4rIRphZC3PYL8l0yabhPVHKognyJgDOjrZSKBPAc-hX8sbG9uK4nnltdVcO_WpIgOb4Ux_UGguVx1hf51i8O-LoWcx7VO2EhWRktdsuIwpkC4k1Um4HxcsKzOgIWO-OaB-t2kzoDNt2Kc3Ek9dQKXls3DOz2S_6PNXXMxCax9HIsG3n4EV7xgFI3UmGLY-99nmmD-1G4B-CUXz5oiOLMpxm4J1OAr68SIqGtt2PnKw8f-NBNdMW_JEtq7Bo5Lb1G5fJU310v1fBkYccde860bApjl6vr3iIYVb1RNlbDzNHyt3fviZ_GEyXMyNOKdcPbuZVoLoNVecSdBIWn6bEB2yUaxH36bwr_ie7UMxXjeAgzL9AwwuzMovNj5YDxLPRCQbjjSbg2ILNcQHXD5LICbOm1seaZqhwx_nWUR86g0z7YcMc8MwPGjNCTVJkWFN8wZK-ACtzc_NDSHlT6dt-l-5s1RrPIA5xMkHEXu3PeicDMdodde2a8K1O8vovoLr8GUuADETKekVi0vXx8ht5uQxEsHl8-l5VNHz9ISIMUFwsGI52i7b1vqu-EP5Yc8TS6FBHaeuMc30zc2daV1-xNv7zIgqGKRElA7HMlLbYko9QDBmdrSWZhh6Jbv1cigFfnoZH-Hh8n1LGkJPiMqscVqDmOeOTTQ4
+
+{
+    "available_until": "2020-05-30"
+}
+
+###
+
+PUT http://saah.local/api/tasker/tasker?XDEBUG_SESSION_START=PHPSTORM
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNjI2YzY0YzVlMjM5NTBkYjg1ZWUwMWRmYmUwMjE0NGQ4OGU0ODQzN2VlMjQ3NmE1MzQzNTJlYzNhZWRjNWNiZDc3MGRjNDVmZWRlY2FjZWMiLCJpYXQiOjE1ODAzODkwMDcsIm5iZiI6MTU4MDM4OTAwNywiZXhwIjoxNzY5Nzc3ODA3LCJzdWIiOiIyMiIsInNjb3BlcyI6WyJ0YXNrZXIiXX0.oIPYokdGEXIxQ4rIRphZC3PYL8l0yabhPVHKognyJgDOjrZSKBPAc-hX8sbG9uK4nnltdVcO_WpIgOb4Ux_UGguVx1hf51i8O-LoWcx7VO2EhWRktdsuIwpkC4k1Um4HxcsKzOgIWO-OaB-t2kzoDNt2Kc3Ek9dQKXls3DOz2S_6PNXXMxCax9HIsG3n4EV7xgFI3UmGLY-99nmmD-1G4B-CUXz5oiOLMpxm4J1OAr68SIqGtt2PnKw8f-NBNdMW_JEtq7Bo5Lb1G5fJU310v1fBkYccde860bApjl6vr3iIYVb1RNlbDzNHyt3fviZ_GEyXMyNOKdcPbuZVoLoNVecSdBIWn6bEB2yUaxH36bwr_ie7UMxXjeAgzL9AwwuzMovNj5YDxLPRCQbjjSbg2ILNcQHXD5LICbOm1seaZqhwx_nWUR86g0z7YcMc8MwPGjNCTVJkWFN8wZK-ACtzc_NDSHlT6dt-l-5s1RrPIA5xMkHEXu3PeicDMdodde2a8K1O8vovoLr8GUuADETKekVi0vXx8ht5uQxEsHl8-l5VNHz9ISIMUFwsGI52i7b1vqu-EP5Yc8TS6FBHaeuMc30zc2daV1-xNv7zIgqGKRElA7HMlLbYko9QDBmdrSWZhh6Jbv1cigFfnoZH-Hh8n1LGkJPiMqscVqDmOeOTTQ4
+
+{
+    "location": {
+        "latitude": 0,
+        "longitude": 0
+    }
+}
+
+###
+
+PUT http://saah.local/api/tasker/tasker?XDEBUG_SESSION_START=PHPSTORM
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{tasker_token_23}}
+
+{
+    "location": {
+        "latitude": 1,
+        "longitude": 1
+    },
+    "first_name": "first name edited2",
+    "last_name": "last name edited2",
+    "national_number": "10101010101",
+    "birth_date": "1987-11-04",
+    "gender": "male",
+    "bio": "bio changed 2",
+    "available_until": "2020-02-20",
+    "email": "edited@email.com"
+}
+
+###
+
+GET {{url}}/tasker/tasker?XDEBUG_SESSION_START=PHPSTORM
+Accept: application/json
+Authorization: Bearer {{tasker_token_22}}
+
+###
+
+GET {{url}}/tasker/notification?XDEBUG_SESSION_START=PHPSTORM
+Accept: application/json
+Authorization: Bearer {{tasker_token_22}}
+
+###
+
+PUT {{url}}/tasker/notification/d36fbc55-0cf7-47f8-8dc2-2b6b1bf6f0b3?XDEBUG_SESSION_START=PHPSTORM
+Accept: application/json
+Authorization: Bearer {{tasker_token_22}}
+
+###
+PUT http://saah.local/api/tasker/phone/verify
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNmM3MGVjZDAyMDAwNDQzYmQ5OWNlZDE3OWQyYTQyYTU5YzEzOWQzOWUyOWZkZjNiMWE4MmNlMWMwYjI3N2M0OTU3Yzk2NzhiYWE3MmI5NzAiLCJpYXQiOjE1ODY3OTM2MTAsIm5iZiI6MTU4Njc5MzYxMCwiZXhwIjoxNzc2MDk2MDAzLCJzdWIiOiIyOSIsInNjb3BlcyI6WyJ0YXNrZXIiXX0.rdg9G7nRI43s8uyvsrj4RoquKJBIFNzo9_9W3b9ALaJ98JWTIvXuqq32Fhu1FfrIKyDnNiQAdcsIiXWCmC6Igh1mv4env4RrPZg2pPfr3e_9lLJKuLyWVpiom7xihM1LPTBSdG8gvnL-h8p1231DJ-QJGtRTmphG01Hl0fA-e1TW8OdKr8fTCx93wxbRS0wzmrLWGqCTec7osMjLZ_njbmoOXBeojjiV9v0-Gt7rMiUM2Nue0xq4BNQSxkwEIB9GOH9pLq2eXastE0EuD05KX1-_j7ty3-GhoJ4lNOAiD881JNEgw-hwE7Pr2yXP23BEDXmzIlugjWBMMSMOmPGe9PRr-_zCsf0r3ucGOs0nzyAB9iINIb0ms7FY8JmWY3QHJmegE4EEY39B-KhTt-jKffAaPrKqIMcyYGojnsA0ecfxS-XMKpGwrgbSd1y3--KWPZG7r-CoueNCXlHTQnDqRuIlcWvQcb_AWBmupNOMqMgF7QwW_VOPzbu6uR1WEEZs__7bvmyOAu8jvbjARj4nA9vSDGsLEWAnWyvy3DzAVbsi9zhkHgpsITjiYraLl7IJtSnywNVLGf2dCdVPVcMANNO6wUT4PSAERkoenvPbKT0aI4emI3ZcQ3akdhmkJHDcoc7SKf2Z1Lt89I8OatDqJLcMo3pvarzUeL1xDd5xd6w
+
+{
+    "code": "123456"
+}
+
+###
+
+POST https://api.belsaa.co/tasker/tasker/photo?XDEBUG_SESSION_START=PHPSTORM
+Accept: application/json
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMzNkNzQ3YzZhNWZlOTcyMGJiYWRkMTNiMTNlNzhkMDIyZTM5ZTczNmE3MzZmZWE3NTc5Y2Q4NjA4OTJjM2IwNTZkNWI0NjQzZDIzY2YyYjkiLCJpYXQiOjE1OTE1NDIyNjksIm5iZiI6MTU5MTU0MjI2OSwiZXhwIjoxNzgwODQ0NjY4LCJzdWIiOiIyNSIsInNjb3BlcyI6WyJ0YXNrZXIiXX0.mTefhz8r9lcb-RPWdzKNXyqddFRXBRPMsrS27eLoVeNRa137GBlfRaZRVpTnMOzyKLkVCJjeA6YCjy79An2b3kCgQ7TsHAmWrFsN5RrOSwiCTg-U4UPZRVQPGQX-1MX9enmfhGJ0xD8fTo8Q5NNmzDyeaOaFEqbOpukZEUKwqV7VLqUDSch_lItPerU5TgK-SWgTL_9cFlYO0hGRFiLe3Mgt9nQqnodPcvgdxLOY2uSS6VW2kOcTwM-Wv7ThL6mab6WWgQOW9h-vey2_ZQ1-KMHDKtR3yzUD4q8vLmgrsPCkpEuUqEy1y9qE8IG0Q1FombChl4rc39FySNDPIguHofvfxdgTqf7fLF9ZtWieTVlr7vMhInfbzt0RuQLD3Ek3gFYN219ROHIo14AvjbjUB2EwFfJN1BfDvX6MK2Ci3-DYE4YEyr5uFB6Gj6xoWcCjAfaFzNlwABNNYGcbOJXSSVmo6DJtcwB94YmUR5AUXfbrnXtOf3zSH7nMcKrzY9CLEPlya9ITxDZ8rSx5sRlEvgfgCNgXNzgScsEs4bx5a_wiJLzjsJcjIDEGtXnNDY43IVdJ7175_fcHHuQX9N2GA-ZcjrOC8xsrkiuuV5UAzQ3ALEJrEHd1YYqNAaQGiqin1YE4m8CB1zc0NdXd6wIXnIrIrtkAO50E-Vy0wduVGPw
+
+--WebAppBoundary
+Content-Disposition: form-data; name="photo"; filename="elvin.jpg"
+
+< /home/amir/Pictures/adventure1.jpg
+--WebAppBoundary--
+
+###
+

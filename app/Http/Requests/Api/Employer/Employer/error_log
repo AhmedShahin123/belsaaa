@@ -1,0 +1,1 @@
+[21-Jan-2021 15:37:40 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/belsaa/public_html/app/Http/Requests/Api/Employer/Employer/UpdateEmployerRequest.php on line 8

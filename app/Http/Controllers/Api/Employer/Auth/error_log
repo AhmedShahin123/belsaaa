@@ -1,0 +1,6 @@
+[30-Jan-2021 09:38:02 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Api\Controller' not found in /home/belsaa/public_html/app/Http/Controllers/Api/Employer/Auth/RecoverForgottenPasswordController.php on line 19
+[30-Jan-2021 09:38:34 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Api\Controller' not found in /home/belsaa/public_html/app/Http/Controllers/Api/Employer/Auth/LoginController.php on line 13
+[30-Jan-2021 09:39:50 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Api\Controller' not found in /home/belsaa/public_html/app/Http/Controllers/Api/Employer/Auth/ForgetPasswordController.php on line 17
+[30-Jan-2021 09:40:52 UTC] PHP Fatal error:  Trait 'App\Http\Controllers\Traits\PhoneVerification' not found in /home/belsaa/public_html/app/Http/Controllers/Api/Employer/Auth/PhoneVerificationController.php on line 15
+[30-Jan-2021 09:42:01 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Api\Controller' not found in /home/belsaa/public_html/app/Http/Controllers/Api/Employer/Auth/VerifyForgetPasswordController.php on line 19
+[30-Jan-2021 09:43:17 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Api\Controller' not found in /home/belsaa/public_html/app/Http/Controllers/Api/Employer/Auth/RegisterController.php on line 11

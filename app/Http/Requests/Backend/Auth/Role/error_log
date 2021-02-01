@@ -1,0 +1,3 @@
+[23-Jan-2021 01:28:15 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/belsaa/public_html/app/Http/Requests/Backend/Auth/Role/StoreRoleRequest.php on line 11
+[23-Jan-2021 01:28:24 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/belsaa/public_html/app/Http/Requests/Backend/Auth/Role/ManageRoleRequest.php on line 10
+[23-Jan-2021 01:29:02 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/belsaa/public_html/app/Http/Requests/Backend/Auth/Role/UpdateRoleRequest.php on line 10

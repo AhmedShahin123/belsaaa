@@ -1,0 +1,23 @@
+### register employer
+POST {{url}}/tasker/register?XDEBUG_SESSION_START=PHPSTORM
+Content-Type: application/json
+Accept: application/json
+
+{
+    "first_name": "Amir",
+    "last_name": "Modarresi",
+    "cellphone": "09125996036",
+    "email": "amir.modarres656@yahoo.com",
+    "latitude": "23.2",
+    "longitude": "10",
+    "password": "amir66*&",
+    "attributes": {
+        "address": "Street 10",
+        "national_number": "13189397123",
+        "gender": "male",
+        "birth_date": "1987-11-04"
+    }
+}
+
+###
+

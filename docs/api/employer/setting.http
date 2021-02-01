@@ -1,0 +1,4 @@
+GET {{url}}/employer/setting?XDEBUG_SESSION_START=PHPSTORM
+Accept: application/json
+
+###

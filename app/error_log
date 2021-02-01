@@ -1,0 +1,2 @@
+[24-Jan-2021 11:06:14 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Device.php on line 7
+[27-Jan-2021 18:10:37 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Payment.php on line 7

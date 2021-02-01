@@ -1,0 +1,19 @@
+POST {{url}}/tasker/credit_card?XDEBUG_SESSION_START=PHPSTORM
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{tasker_token_55}}
+
+{
+    "token": "tok_CIKy41311012SUPS527728"
+}
+###
+
+GET {{url}}/tasker/credit_card?XDEBUG_SESSION_START=PHPSTORM
+Accept: application/json
+Authorization: Bearer {{tasker_token_55}}
+###
+
+DELETE {{url}}/tasker/credit_card/2?XDEBUG_SESSION_START=PHPSTORM
+Accept: application/json
+Authorization: Bearer {{tasker_token_55}}
+###

@@ -1,0 +1,30 @@
+{
+    "name": "besaah/workflow",
+    "description": "Adds Symfony Workflow component to Laravel framework",
+    "type": "library",
+    "require": {
+        "symfony/workflow": "^4.3",
+        "symfony/config": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "BeSaah\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Amir Modarresi",
+            "email": "amir.modarresi.13@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BeSaah\\WorkflowServiceProvider"
+            ],
+            "aliases": {
+                "WorkflowRegistry": "BeSaah\\Facades\\WorkflowRegistry"
+            }
+        }
+    }
+}

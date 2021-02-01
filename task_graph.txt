@@ -1,0 +1,27 @@
+digraph workflow {
+  ratio="compress" rankdir="LR" label=""
+  node [fontsize="9" fontname="Arial" color="#333333" fillcolor="lightblue" fixedsize="false" width="1"];
+  edge [fontsize="9" fontname="Arial" color="#333333" arrowhead="normal" arrowsize="0.5"];
+
+  place_c2a6b03f190dfb2b4aa91f8af8d477a9bc3401dc [label="new", shape=circle style="filled"];
+  place_fe085a67e83f41ac30d64d2b7369c3e7e12e2d2f [label="initiate", shape=circle];
+  place_defba338ddb9ec586a904f82b44d442f5587c2b0 [label="selected_by_tasker", shape=circle];
+  place_16ad05bc76d27ca6d10241623a360df6c9da64dd [label="sending", shape=circle];
+  place_51c817ab85e3c10c1544cbe74ec1106357ad59f5 [label="accepted", shape=circle];
+  place_97a8fc18005144fb97adf911beddfd72c2bc7668 [label="sent_to_admin", shape=circle];
+  place_da7153ee73f1131089a979c73ad72c9c7725d658 [label="started", shape=circle];
+  place_f957097d7a22775f6bea41b46cae4d14274dac9f [label="finished", shape=circle];
+  place_140e7351379dcf91c8a2461ed5cf53e1b9d1414b [label="canceled", shape=circle];
+  place_c2a6b03f190dfb2b4aa91f8af8d477a9bc3401dc -> place_fe085a67e83f41ac30d64d2b7369c3e7e12e2d2f [label="initiate" style="solid"];
+  place_fe085a67e83f41ac30d64d2b7369c3e7e12e2d2f -> place_16ad05bc76d27ca6d10241623a360df6c9da64dd [label="send" style="solid"];
+  place_16ad05bc76d27ca6d10241623a360df6c9da64dd -> place_16ad05bc76d27ca6d10241623a360df6c9da64dd [label="send" style="solid"];
+  place_16ad05bc76d27ca6d10241623a360df6c9da64dd -> place_defba338ddb9ec586a904f82b44d442f5587c2b0 [label="accept_by_taskers" style="solid"];
+  place_16ad05bc76d27ca6d10241623a360df6c9da64dd -> place_97a8fc18005144fb97adf911beddfd72c2bc7668 [label="send_to_admin" style="solid"];
+  place_defba338ddb9ec586a904f82b44d442f5587c2b0 -> place_16ad05bc76d27ca6d10241623a360df6c9da64dd [label="send" style="solid"];
+  place_defba338ddb9ec586a904f82b44d442f5587c2b0 -> place_51c817ab85e3c10c1544cbe74ec1106357ad59f5 [label="accept" style="solid"];
+  place_defba338ddb9ec586a904f82b44d442f5587c2b0 -> place_97a8fc18005144fb97adf911beddfd72c2bc7668 [label="send_to_admin" style="solid"];
+  place_51c817ab85e3c10c1544cbe74ec1106357ad59f5 -> place_da7153ee73f1131089a979c73ad72c9c7725d658 [label="start" style="solid"];
+  place_da7153ee73f1131089a979c73ad72c9c7725d658 -> place_f957097d7a22775f6bea41b46cae4d14274dac9f [label="finish" style="solid"];
+  place_da7153ee73f1131089a979c73ad72c9c7725d658 -> place_140e7351379dcf91c8a2461ed5cf53e1b9d1414b [label="cancel" style="solid"];
+}
+

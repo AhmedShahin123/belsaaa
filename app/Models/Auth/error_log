@@ -1,0 +1,9 @@
+[21-Jan-2021 15:22:37 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/Auth/EmployerAttributes.php on line 22
+[21-Jan-2021 15:23:35 UTC] PHP Fatal error:  Class 'Spatie\Permission\Models\Role' not found in /home/belsaa/public_html/app/Models/Auth/Role.php on line 13
+[21-Jan-2021 15:23:58 UTC] PHP Fatal error:  Class 'App\Models\Auth\BaseUser' not found in /home/belsaa/public_html/app/Models/Auth/User.php on line 41
+[21-Jan-2021 15:24:00 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Auth\User' not found in /home/belsaa/public_html/app/Models/Auth/BaseUser.php on line 19
+[21-Jan-2021 15:24:02 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/Auth/PasswordHistory.php on line 10
+[21-Jan-2021 15:24:07 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/Auth/TaskerWorkingDay.php on line 11
+[21-Jan-2021 15:24:08 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/Auth/TaskerAttributes.php on line 19
+[21-Jan-2021 15:24:09 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/Auth/EmployerAttributes.php on line 22
+[25-Jan-2021 16:56:24 UTC] PHP Fatal error:  Class 'App\Models\RecordingModel' not found in /home/belsaa/public_html/app/Models/Auth/SocialAccount.php on line 10

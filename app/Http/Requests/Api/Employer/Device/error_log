@@ -1,0 +1,1 @@
+[21-Jan-2021 15:34:19 UTC] PHP Fatal error:  Class 'App\Http\Requests\Api\Common\Device\RegisterDeviceRequest' not found in /home/belsaa/public_html/app/Http/Requests/Api/Employer/Device/RegisterDeviceRequest.php on line 11

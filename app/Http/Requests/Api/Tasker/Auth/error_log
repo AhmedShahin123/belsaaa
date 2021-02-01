@@ -1,0 +1,3 @@
+[21-Jan-2021 15:34:25 UTC] PHP Fatal error:  Class 'App\Http\Requests\Api\Auth\LoginRequest' not found in /home/belsaa/public_html/app/Http/Requests/Api/Tasker/Auth/LoginRequest.php on line 12
+[21-Jan-2021 15:40:13 UTC] PHP Fatal error:  Class 'App\Http\Requests\Api\Auth\RegisterRequest' not found in /home/belsaa/public_html/app/Http/Requests/Api/Tasker/Auth/RegisterRequest.php on line 13
+[21-Jan-2021 15:43:07 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/belsaa/public_html/app/Http/Requests/Api/Tasker/Auth/ChangePasswordRequest.php on line 8

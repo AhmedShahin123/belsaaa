@@ -1,0 +1,2 @@
+[25-Jan-2021 11:35:37 UTC] PHP Fatal error:  Class 'BeSaah\TapPayments\DTO\Authorize\AuthorizeResponse' not found in /home/belsaa/public_html/packages/besaah/tap-payments/src/DTO/Charge/ChargeResponse.php on line 13
+[25-Jan-2021 11:40:38 UTC] PHP Fatal error:  Class 'BeSaah\TapPayments\DTO\Authorize\AuthorizeRequest' not found in /home/belsaa/public_html/packages/besaah/tap-payments/src/DTO/Charge/ChargeRequest.php on line 12

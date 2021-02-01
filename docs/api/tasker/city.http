@@ -1,0 +1,4 @@
+GET https://besaah.modarre.si/api/tasker/city?XDEBUG_SESSION_START=PHPSTORM
+Accept: application/json
+
+###

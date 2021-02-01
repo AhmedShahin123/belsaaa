@@ -1,0 +1,32 @@
+GET {{url}}/tasker/task?XDEBUG_SESSION_START=PHPSTORM&status[]=finished&status[]=canceled&status[]=accepted
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{tasker_token_22}}
+
+###
+
+GET {{url}}/tasker/task/21?XDEBUG_SESSION_S\ART=PHPSTORM
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{tasker_token_22}}
+
+###
+
+PUT {{url}}/tasker/task/21/cancel?XDEBUG_SESSION_START=PHPSTORM
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{tasker_token_22}}
+
+###
+
+POST {{url}}/tasker/task/181/rating?XDEBUG_SESSION_START=PHPSTORM
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{tasker_token_22}}
+
+{
+    "rate": 1,
+    "comment": "soso"
+}
+###
+

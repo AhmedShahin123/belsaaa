@@ -1,0 +1,8 @@
+[23-Jan-2021 01:39:22 UTC] PHP Fatal error:  Class 'App\Repositories\BaseRepository' not found in /home/belsaa/public_html/app/Repositories/Auth/TokenRepository.php on line 13
+[23-Jan-2021 01:40:11 UTC] PHP Fatal error:  Class 'App\Repositories\BaseRepository' not found in /home/belsaa/public_html/app/Repositories/Auth/UserRepository.php on line 41
+[23-Jan-2021 01:41:08 UTC] PHP Fatal error:  Class 'App\Repositories\BaseRepository' not found in /home/belsaa/public_html/app/Repositories/Auth/ClientRepository.php on line 13
+[23-Jan-2021 01:41:38 UTC] PHP Fatal error:  Class 'App\Repositories\BaseRepository' not found in /home/belsaa/public_html/app/Repositories/Auth/DeviceRepository.php on line 14
+[23-Jan-2021 01:54:46 UTC] PHP Fatal error:  Class 'App\Repositories\BaseRepository' not found in /home/belsaa/public_html/app/Repositories/Auth/TokenRepository.php on line 13
+[23-Jan-2021 01:56:23 UTC] PHP Fatal error:  Class 'App\Repositories\BaseRepository' not found in /home/belsaa/public_html/app/Repositories/Auth/UserRepository.php on line 41
+[23-Jan-2021 01:58:21 UTC] PHP Fatal error:  Class 'App\Repositories\BaseRepository' not found in /home/belsaa/public_html/app/Repositories/Auth/DeviceRepository.php on line 14
+[23-Jan-2021 02:00:33 UTC] PHP Fatal error:  Class 'App\Repositories\BaseRepository' not found in /home/belsaa/public_html/app/Repositories/Auth/ClientRepository.php on line 13

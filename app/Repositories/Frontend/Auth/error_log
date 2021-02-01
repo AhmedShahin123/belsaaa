@@ -1,0 +1,1 @@
+[25-Jan-2021 13:31:37 UTC] PHP Fatal error:  Class 'App\Repositories\BaseRepository' not found in /home/belsaa/public_html/app/Repositories/Frontend/Auth/UserRepository.php on line 21

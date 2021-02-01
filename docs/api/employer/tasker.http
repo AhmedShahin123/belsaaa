@@ -1,0 +1,9 @@
+GET {{url}}/employer/tasker/108/rating
+Authorization: Bearer {{employer_authenticated_token_zoza}}
+Accept: application/json
+
+###
+
+GET {{url}}/employer/tasker/108
+Authorization: Bearer {{employer_authenticated_token_zoza}}
+Accept: application/json

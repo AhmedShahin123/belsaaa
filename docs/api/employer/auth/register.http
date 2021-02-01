@@ -1,0 +1,17 @@
+### register employer
+POST {{url}}/employer/register?XDEBUG_SESSION_START=PHPSTORM
+Content-Type: application/json
+Accept: application/json
+
+{
+    "attributes": {
+        "bio": "q88q"
+    },
+    "email": "q88q@gmail.com",
+    "company_name": "q88q",
+    "cellphone": "544448888",
+    "password": "12345678"
+}
+
+###
+

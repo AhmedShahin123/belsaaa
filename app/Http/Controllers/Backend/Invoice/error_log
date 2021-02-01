@@ -1,0 +1,1 @@
+[23-Jan-2021 14:32:05 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/belsaa/public_html/app/Http/Controllers/Backend/Invoice/InvoiceController.php on line 19

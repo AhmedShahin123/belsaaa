@@ -1,0 +1,12 @@
+[21-Jan-2021 15:21:49 UTC] PHP Fatal error:  Class 'Illuminate\Notifications\Notification' not found in /home/belsaa/public_html/app/Notifications/TaskSentToAdmin.php on line 13
+[21-Jan-2021 15:22:00 UTC] PHP Fatal error:  Class 'Illuminate\Notifications\Notification' not found in /home/belsaa/public_html/app/Notifications/TaskSentToTasker.php on line 14
+[21-Jan-2021 15:22:06 UTC] PHP Fatal error:  Class 'Illuminate\Notifications\Notification' not found in /home/belsaa/public_html/app/Notifications/TestNotification.php on line 12
+[21-Jan-2021 15:22:19 UTC] PHP Fatal error:  Class 'Illuminate\Notifications\Notification' not found in /home/belsaa/public_html/app/Notifications/TaskerAcceptedTask.php on line 13
+[21-Jan-2021 15:22:25 UTC] PHP Fatal error:  Class 'Illuminate\Notifications\Notification' not found in /home/belsaa/public_html/app/Notifications/TaskerRejectedTask.php on line 13
+[21-Jan-2021 15:22:34 UTC] PHP Fatal error:  Class 'Illuminate\Notifications\Notification' not found in /home/belsaa/public_html/app/Notifications/TaskerTaskCanceled.php on line 11
+[21-Jan-2021 15:22:54 UTC] PHP Fatal error:  Class 'Illuminate\Notifications\Notification' not found in /home/belsaa/public_html/app/Notifications/SendVerificationSms.php on line 12
+[21-Jan-2021 15:22:56 UTC] PHP Fatal error:  Class 'Illuminate\Notifications\Notification' not found in /home/belsaa/public_html/app/Notifications/EmployerTaskStarted.php on line 12
+[21-Jan-2021 15:23:02 UTC] PHP Fatal error:  Class 'Illuminate\Notifications\Notification' not found in /home/belsaa/public_html/app/Notifications/EmployerTaskCanceled.php on line 12
+[21-Jan-2021 15:23:04 UTC] PHP Fatal error:  Class 'Illuminate\Notifications\Notification' not found in /home/belsaa/public_html/app/Notifications/EmployerTaskFinished.php on line 11
+[21-Jan-2021 15:23:09 UTC] PHP Fatal error:  Class 'Illuminate\Notifications\Notification' not found in /home/belsaa/public_html/app/Notifications/EmployerAcceptedTasker.php on line 14
+[21-Jan-2021 15:23:11 UTC] PHP Fatal error:  Class 'Illuminate\Notifications\Notification' not found in /home/belsaa/public_html/app/Notifications/EmployerRejectedTasker.php on line 13

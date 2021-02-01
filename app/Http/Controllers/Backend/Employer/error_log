@@ -1,0 +1,1 @@
+[24-Jan-2021 11:24:43 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/belsaa/public_html/app/Http/Controllers/Backend/Employer/EmployerController.php on line 20

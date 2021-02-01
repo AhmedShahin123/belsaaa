@@ -1,0 +1,1 @@
+[25-Jan-2021 12:29:08 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/belsaa/public_html/app/Http/Controllers/Backend/Contact/ContactCategoryController.php on line 17

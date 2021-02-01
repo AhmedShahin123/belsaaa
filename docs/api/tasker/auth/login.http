@@ -1,0 +1,12 @@
+### register employer
+POST {{url}}/tasker/login?XDEBUG_SESSION_START=PHPSTORM
+Content-Type: application/json
+Accept: application/json
+
+{
+    "username": "+966534512345",
+    "password": "12345678"
+}
+
+###
+

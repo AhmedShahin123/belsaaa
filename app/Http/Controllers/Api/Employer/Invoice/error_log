@@ -1,0 +1,2 @@
+[24-Jan-2021 09:02:27 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/belsaa/public_html/app/Http/Controllers/Api/Employer/Invoice/PayInvoiceController.php on line 11
+[24-Jan-2021 09:02:33 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Api\Controller' not found in /home/belsaa/public_html/app/Http/Controllers/Api/Employer/Invoice/IndexInvoicesController.php on line 9

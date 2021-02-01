@@ -1,0 +1,11 @@
+[23-Jan-2021 01:16:45 UTC] PHP Fatal error:  Trait 'Illuminate\Queue\SerializesModels' not found in /home/belsaa/public_html/app/Events/Backend/Auth/User/UserConfirmed.php on line 12
+[23-Jan-2021 01:17:16 UTC] PHP Fatal error:  Trait 'Illuminate\Queue\SerializesModels' not found in /home/belsaa/public_html/app/Events/Backend/Auth/User/UserCreated.php on line 12
+[23-Jan-2021 01:18:04 UTC] PHP Fatal error:  Trait 'Illuminate\Queue\SerializesModels' not found in /home/belsaa/public_html/app/Events/Backend/Auth/User/UserPasswordChanged.php on line 12
+[23-Jan-2021 01:19:49 UTC] PHP Fatal error:  Trait 'Illuminate\Queue\SerializesModels' not found in /home/belsaa/public_html/app/Events/Backend/Auth/User/UserReactivated.php on line 12
+[23-Jan-2021 01:19:58 UTC] PHP Fatal error:  Trait 'Illuminate\Queue\SerializesModels' not found in /home/belsaa/public_html/app/Events/Backend/Auth/User/UserUpdated.php on line 12
+[23-Jan-2021 01:20:11 UTC] PHP Fatal error:  Trait 'Illuminate\Queue\SerializesModels' not found in /home/belsaa/public_html/app/Events/Backend/Auth/User/UserPermanentlyDeleted.php on line 12
+[23-Jan-2021 01:21:04 UTC] PHP Fatal error:  Trait 'Illuminate\Queue\SerializesModels' not found in /home/belsaa/public_html/app/Events/Backend/Auth/User/UserDeleted.php on line 12
+[23-Jan-2021 01:21:49 UTC] PHP Fatal error:  Trait 'Illuminate\Queue\SerializesModels' not found in /home/belsaa/public_html/app/Events/Backend/Auth/User/UserUnconfirmed.php on line 12
+[23-Jan-2021 01:22:04 UTC] PHP Fatal error:  Trait 'Illuminate\Queue\SerializesModels' not found in /home/belsaa/public_html/app/Events/Backend/Auth/User/UserDeactivated.php on line 12
+[23-Jan-2021 01:38:33 UTC] PHP Fatal error:  Trait 'Illuminate\Queue\SerializesModels' not found in /home/belsaa/public_html/app/Events/Backend/Auth/User/UserRestored.php on line 12
+[23-Jan-2021 01:39:02 UTC] PHP Fatal error:  Trait 'Illuminate\Queue\SerializesModels' not found in /home/belsaa/public_html/app/Events/Backend/Auth/User/UserSocialDeleted.php on line 12

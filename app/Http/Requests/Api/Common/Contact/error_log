@@ -1,0 +1,1 @@
+[21-Jan-2021 15:34:04 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/belsaa/public_html/app/Http/Requests/Api/Common/Contact/SubmitContactRequest.php on line 13

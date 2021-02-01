@@ -1,0 +1,10 @@
+GET {{url}}/employer/credit_card/link?XDEBUG_SESSION_START=PHPSTORM
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{employer_authenticated_token_69}}
+
+###
+
+GET {{url}}/employer/credit_card?XDEBUG_SESSION_START=PHPSTORM
+Content-Type: application/json
+Authorization: Bearer {{employer_authenticated_token_69}}

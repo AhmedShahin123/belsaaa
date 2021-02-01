@@ -1,0 +1,1 @@
+[21-Jan-2021 15:22:32 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/belsaa/public_html/app/Http/Controllers/Payment/PaymentCallbackController.php on line 11

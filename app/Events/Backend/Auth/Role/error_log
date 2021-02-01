@@ -1,0 +1,3 @@
+[23-Jan-2021 01:18:19 UTC] PHP Fatal error:  Trait 'Illuminate\Queue\SerializesModels' not found in /home/belsaa/public_html/app/Events/Backend/Auth/Role/RoleDeleted.php on line 12
+[23-Jan-2021 01:26:13 UTC] PHP Fatal error:  Trait 'Illuminate\Queue\SerializesModels' not found in /home/belsaa/public_html/app/Events/Backend/Auth/Role/RoleUpdated.php on line 12
+[23-Jan-2021 01:27:13 UTC] PHP Fatal error:  Trait 'Illuminate\Queue\SerializesModels' not found in /home/belsaa/public_html/app/Events/Backend/Auth/Role/RoleCreated.php on line 12

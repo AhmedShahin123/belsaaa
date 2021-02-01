@@ -1,0 +1,3 @@
+GET {{url}}/tasker/employer/69/rating
+Authorization: Bearer {{employer_authenticated_token}}
+Accept: application/json

@@ -1,0 +1,96 @@
+entity Calendar {
+	weekDay Integer
+	startTime String
+	endTime String
+}
+
+entity City {
+	id Integer
+	name String
+}
+
+entity EmployerAttributes {
+	address String
+    nationalId Integer
+    gender Integer
+    birthDate Date
+    bio TextBlob
+    commercialEmail String
+    commercialBusinessIndustry String
+}
+
+entity Media {
+	filepath String
+	mime String
+	size Integer
+}
+
+entity Skill {
+	name String
+}
+
+entity Task {
+	startDate Date
+	endDate Date
+	startTime String
+	endTime String
+	description TextBlob
+    hourRate Integer
+    status TaskStatus
+    numberOfRequiredTasker Integer
+}
+
+entity TaskerAttributes {
+	address String
+    nationalId Integer
+    gender Integer
+    birthDate Date
+    bio TextBlob
+    hourRate Integer
+}
+
+entity TaskTitle {
+	title String
+}
+
+entity User {
+	email String
+    cellphone String
+    password String
+    type UserType
+}
+
+relationship ManyToMany {
+	User{skills} to Skill
+}
+
+relationship ManyToOne {
+	Calendar{user} to User,
+	Task{title} to TaskTitle,
+	User{city} to City
+	Task{location} to City
+}
+
+relationship OneToOne {
+	User{attribute} to TaskerAttributes,
+	User{attribute} to EmployerAttributes
+}
+
+relationship OneToMany {
+	EmployerAttributes{commercialDocuments} to Media,
+	EmployerAttributes{commercialImages} to Media
+}
+
+enum UserType {
+	EMPLOYER,
+	TASKER
+}
+
+enum TaskStatus {
+	INITIATE,
+	SELECTED_BY_TASKER,
+	APPROVED_BY_EMPLOYER,
+	STARTED,
+	CLOSED_AND_PAID,
+	CANCELED
+}

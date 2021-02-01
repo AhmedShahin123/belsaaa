@@ -1,0 +1,1 @@
+[21-Jan-2021 15:22:17 UTC] PHP Fatal error:  Class 'Illuminate\Mail\Mailable' not found in /home/belsaa/public_html/app/Mail/Frontend/Contact/SendContact.php on line 13

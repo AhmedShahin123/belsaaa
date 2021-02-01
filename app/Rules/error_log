@@ -1,0 +1,1 @@
+[31-Dec-2020 16:32:01 UTC] PHP Fatal error:  Class 'App\Rules\Base64File' not found in /home/belsaa/public_html/app/Rules/Base64Image.php on line 8

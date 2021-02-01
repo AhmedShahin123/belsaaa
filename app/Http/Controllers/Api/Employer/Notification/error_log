@@ -1,0 +1,2 @@
+[24-Jan-2021 09:01:52 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Api\Controller' not found in /home/belsaa/public_html/app/Http/Controllers/Api/Employer/Notification/MarkAsReadNotificationController.php on line 14
+[25-Jan-2021 18:40:10 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Api\Controller' not found in /home/belsaa/public_html/app/Http/Controllers/Api/Employer/Notification/IndexNotificationController.php on line 9

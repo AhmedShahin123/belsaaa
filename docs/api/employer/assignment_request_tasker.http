@@ -1,0 +1,22 @@
+PUT {{url}}/employer/assignment_request_tasker/36/accept?XDEBUG_SESSION_START=PHPSTORM
+Authorization: Bearer {{employer_authenticated_token_253_510001000}}
+
+###
+
+PUT {{url}}/api/employer/assignment_request_tasker/47/reject?XDEBUG_SESSION_START=PHPSTORM
+Authorization: Bearer {{employer_authenticated_token}}
+
+###
+
+GET {{url}}/employer/assignment_request_tasker
+Authorization: Bearer {{employer_authenticated_token_zoza}}
+
+###
+POST {{url}}/employer/assignment_request_tasker/555/rating?XDEBUG_SESSION_START=PHPSTORM
+Authorization: Bearer {{employer_authenticated_token}}
+Accept: application/json
+Content-Type: application/json
+
+{
+    "rate": 4
+}

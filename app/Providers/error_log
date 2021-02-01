@@ -1,0 +1,8 @@
+[21-Jan-2021 15:21:43 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/belsaa/public_html/app/Providers/AppServiceProvider.php on line 27
+[21-Jan-2021 15:21:54 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Support\Providers\RouteServiceProvider' not found in /home/belsaa/public_html/app/Providers/RouteServiceProvider.php on line 13
+[21-Jan-2021 15:22:09 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Support\Providers\EventServiceProvider' not found in /home/belsaa/public_html/app/Providers/EventServiceProvider.php on line 15
+[21-Jan-2021 15:22:14 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/belsaa/public_html/app/Providers/HelperServiceProvider.php on line 12
+[21-Jan-2021 15:22:39 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/belsaa/public_html/app/Providers/ComposerServiceProvider.php on line 13
+[21-Jan-2021 15:22:41 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/belsaa/public_html/app/Providers/ObserverServiceProvider.php on line 12
+[21-Jan-2021 15:22:52 UTC] PHP Fatal error:  Class 'Laravel\Passport\PassportServiceProvider' not found in /home/belsaa/public_html/app/Providers/PassportServiceProvider.php on line 10
+[21-Jan-2021 15:23:07 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/belsaa/public_html/app/Providers/BroadcastServiceProvider.php on line 11

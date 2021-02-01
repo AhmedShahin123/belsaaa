@@ -1,0 +1,2 @@
+[24-Jan-2021 09:03:16 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Api\Controller' not found in /home/belsaa/public_html/app/Http/Controllers/Api/Employer/Contact/SubmitContactController.php on line 15
+[24-Jan-2021 09:03:19 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Api\Controller' not found in /home/belsaa/public_html/app/Http/Controllers/Api/Employer/Contact/IndexContactCategoryController.php on line 14

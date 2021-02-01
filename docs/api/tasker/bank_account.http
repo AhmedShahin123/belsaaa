@@ -1,0 +1,22 @@
+POST {{url}}/tasker/bank_account?XDEBUG_SESSION_START=PHPSTORM
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{tasker_254_500000001}}
+
+{
+    "iban": "55",
+    "bank_name": "Best Bank"
+}
+###
+
+PUT {{url}}/tasker/bank_account/5/default?XDEBUG_SESSION_START=PHPSTORM
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{tasker_254_500000001}}
+###
+
+GET {{url}}/tasker/bank_account?XDEBUG_SESSION_START=PHPSTORM
+Accept: application/json
+Authorization: Bearer {{tasker_254_500000001}}
+###
+

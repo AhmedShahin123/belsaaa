@@ -1,0 +1,24 @@
+digraph workflow {
+  ratio="compress" rankdir="LR" label=""
+  node [fontsize="9" fontname="Arial" color="#333333" fillcolor="lightblue" fixedsize="false" width="1"];
+  edge [fontsize="9" fontname="Arial" color="#333333" arrowhead="normal" arrowsize="0.5"];
+
+  place_c2a6b03f190dfb2b4aa91f8af8d477a9bc3401dc [label="new", shape=circle style="filled"];
+  place_e22586930a5b2f196cd9070b9a4af5c47c1380fa [label="pending", shape=circle];
+  place_288e8b1805afba64c1810139b88b2911fa9364fe [label="tasker_rejected", shape=circle];
+  place_1876d7f3eb1babdfdb9bd1f779ce3dca370ae2a2 [label="tasker_accepted", shape=circle];
+  place_79aafd9b50d083461ac196d04b11d06a86618be0 [label="tasker_timeout", shape=circle];
+  place_2584cf925841aa10432b8458a2aafd202ef13011 [label="employer_rejected", shape=circle];
+  place_341ace17579241a6e812eeee70c4982ca954d4f1 [label="employer_accepted", shape=circle];
+  place_77a988030a036e0c3420b0220ab9c0acb2940106 [label="employer_timeout", shape=circle];
+  place_ea88fbaa99b73225752e2ef67593f775848160ad [label="closed", shape=circle];
+  place_c2a6b03f190dfb2b4aa91f8af8d477a9bc3401dc -> place_e22586930a5b2f196cd9070b9a4af5c47c1380fa [label="pend" style="solid"];
+  place_e22586930a5b2f196cd9070b9a4af5c47c1380fa -> place_1876d7f3eb1babdfdb9bd1f779ce3dca370ae2a2 [label="tasker_accept" style="solid"];
+  place_e22586930a5b2f196cd9070b9a4af5c47c1380fa -> place_288e8b1805afba64c1810139b88b2911fa9364fe [label="tasker_reject" style="solid"];
+  place_e22586930a5b2f196cd9070b9a4af5c47c1380fa -> place_79aafd9b50d083461ac196d04b11d06a86618be0 [label="tasker_timeout" style="solid"];
+  place_e22586930a5b2f196cd9070b9a4af5c47c1380fa -> place_77a988030a036e0c3420b0220ab9c0acb2940106 [label="employer_timeout" style="solid"];
+  place_e22586930a5b2f196cd9070b9a4af5c47c1380fa -> place_ea88fbaa99b73225752e2ef67593f775848160ad [label="close" style="solid"];
+  place_1876d7f3eb1babdfdb9bd1f779ce3dca370ae2a2 -> place_341ace17579241a6e812eeee70c4982ca954d4f1 [label="employer_accept" style="solid"];
+  place_1876d7f3eb1babdfdb9bd1f779ce3dca370ae2a2 -> place_2584cf925841aa10432b8458a2aafd202ef13011 [label="employer_reject" style="solid"];
+}
+

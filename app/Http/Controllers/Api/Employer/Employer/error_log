@@ -1,0 +1,2 @@
+[24-Jan-2021 09:05:00 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Api\Controller' not found in /home/belsaa/public_html/app/Http/Controllers/Api/Employer/Employer/UpdateEmployerController.php on line 9
+[25-Jan-2021 06:35:12 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Api\Controller' not found in /home/belsaa/public_html/app/Http/Controllers/Api/Employer/Employer/ShowEmployerController.php on line 9

@@ -1,0 +1,10 @@
+POST {{url}}/employer/device?XDEBUG_SESSION_START=PHPSTORM
+Content-Type: application/json
+Authorization: Bearer {{employer_authenticated_token}}
+
+{
+    "device_id": "asdasdasdsadsad",
+    "fcm_token": "c_zF4SS8RhSjKzndK9g7WC:APA91bF8FNQd5aTo00JW7D28TV2Cm3Fk0it-Iwjh-knITU6SMyB3y2kSSSH5RoDJw94Sl977LvCkNo9CckqHW5rB2w3HHUBdq17HMp4rwRdQh1SCxwAw5WwWEwx3y2m7I6-ZqdkWc-0j"
+}
+
+###

@@ -1,0 +1,2 @@
+[23-Jan-2021 01:42:18 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/belsaa/public_html/app/Http/Requests/Frontend/User/UpdateProfileRequest.php on line 12
+[23-Jan-2021 01:42:57 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/belsaa/public_html/app/Http/Requests/Frontend/User/UpdatePasswordRequest.php on line 12

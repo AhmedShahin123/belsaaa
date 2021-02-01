@@ -1,0 +1,17 @@
+[21-Jan-2021 15:19:54 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/City.php on line 7
+[21-Jan-2021 15:19:58 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/Task.php on line 45
+[21-Jan-2021 15:20:03 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/Skill.php on line 7
+[21-Jan-2021 15:20:07 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/Rating.php on line 21
+[21-Jan-2021 15:20:15 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/Contact.php on line 8
+[21-Jan-2021 15:20:28 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/Invoice.php on line 28
+[21-Jan-2021 15:20:34 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/Payment.php on line 22
+[21-Jan-2021 15:20:40 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/CreditCard.php on line 21
+[21-Jan-2021 15:21:03 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/Notification.php on line 7
+[21-Jan-2021 15:21:07 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/RecordingModel.php on line 12
+[21-Jan-2021 15:21:20 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/TaskRepeatedDay.php on line 16
+[21-Jan-2021 15:21:23 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/ContactCategory.php on line 7
+[21-Jan-2021 15:21:32 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/TaskerBankAccount.php on line 8
+[21-Jan-2021 15:21:46 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/TaskOneTimeAttributes.php on line 15
+[21-Jan-2021 15:21:57 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/AssignmentRequestTasker.php on line 27
+[21-Jan-2021 15:22:03 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/TaskContinuedAttributes.php on line 17
+[23-Jan-2021 13:35:08 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/belsaa/public_html/app/Models/TaskRepeatedAttributes.php on line 16

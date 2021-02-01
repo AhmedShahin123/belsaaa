@@ -1,0 +1,48 @@
+POST http://saah.local/api/employer/employer?XDEBUG_SESSION_START=PHPSTORM
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNmM5NzdlOTZmZTMzZmVkYzAwOWQ5NjVjODkwMmQwZjU4MGNlN2VjYjU3ZTEyNzI3NzAwZWJjNDA5ZTBmNDIzNTU2MGZjMmM0NmI4OGRkOTgiLCJpYXQiOjE1ODAzODYwNDMsIm5iZiI6MTU4MDM4NjA0MywiZXhwIjoxNzY5Nzc0ODQyLCJzdWIiOiIxOSIsInNjb3BlcyI6WyJlbXBsb3llciJdfQ.lCwwNKYOjqs6Q9KnyG5q4RFyIzv-YxGwHlc5b7pplRlA6hBsSpzfUDMjIfo_sy-PEjsWAEsHte32wENZMWzZibtQ-IhIYjJSjkzOGxp0Pidxn2wGJeGhpwODMHueJ4_EMOl6QlguvVZZpMnIblpihXMtvX7TWDeaIZkw2cS3iFrjx4oplcB0lGVsUrWjQnfOlWSNOoL2s2I-Pt0VXYc08oSFoWQbhcJ1pYBBTlDxcElOOeagW4Nq_S_GLBefaUsVuZ6samUdL32DtaeBZk2yvrFpF5qZKKRbaHXSHeGWqb0TiB2IUGJFVAWgmt_ut9driL3H2g1klrC3Jbds34CZc142wi_6T2UaX2IRkwXTxAHlp5GzSxwjnbqLBGgQa-dCHKzZ1AnIQh5ClRD7I2CnbbisgNMawUgRiQfYHa2hWI_1hbFfza7IJ41suvYcXoVJIdhxH-rmpLNSck_LJNPtOsaWzL_gi6NF2iRSOrolhgwaFurxK94MMR_-pzdpS_P6qMtqLFK5z6R90_gq_x4gW4WlOtq_p0RqfOCMFRSHlDtdrC0HxQqfhExnCVgXS2r01coCRU-gQ86CDzJa8GKyqMyA5rrPwwl7Q3_k9cAnPw0_iXTm1pp3_oaugyvYVHDbwBPQTE3FCcOjyU7Hjad7quqLJO81oY7DDTfbMrq-z2s
+
+--WebAppBoundary
+Content-Disposition: form-data; name="commercial_document"; filename="file.md"
+
+< ../../readme.md
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="commercial_image"; filename="elvin.jpg"
+
+< /home/amir/Pictures/elvin.jpg
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="commercial_business_industry"
+
+adkasdaskjdkjh
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="commercial_email"
+
+adkasdaskjdkjh@asdasd.asd
+--WebAppBoundary--
+
+###
+
+GET {{url}}/employer/employer?XDEBUG_SESSION_START=PHPSTORM
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZjg3NDc5N2IzZTRlOWRiYmNiYzc0YzRmYjFkYzQ1YzQzY2M1NzE2YTcwNjhkZDc2YjYwNDMyOTUxMjNlZTdhN2VlMmM2ODhhNmUyNTFhYWQiLCJpYXQiOjE2MDU2MDMyMTYsIm5iZiI6MTYwNTYwMzIxNiwiZXhwIjoxNzk0OTA1NjE1LCJzdWIiOiIyODciLCJzY29wZXMiOlsiZW1wbG95ZXIiXX0.XzOb-Kf9WYpMk5K50-KRXMSzucbZqkRSN9ygBYM9QlsZqvKPS_lYBoUBc93-fULw8Yrx802QvD--cBuL6PNS74oXubJ8-fO8gTg-IzmPx0AbXRNvmjF67kkrQ1no5LgQbW3n10Lk4PKMrPmGmR_2z_jGbpNbrFfCeddFMAMccbt8ZLWPkHdWrT1QjzBCJeyVZHzyvQ9pNNoua3tqGSF75nLt3DWymcCvLs-HTcLR7WWs3T-eKL3amiz6ifV0HM2tS8-wAe7wSNo5cuAsI1sJrfXhuo_a91DNt-3i2pu7xQhq1Vmbrz_ffep4yLDj8zcaLpS2XqG9ETJdol65UjNkfd8Bkx_QJhkJmmGg-9tQHCBnPAGuX2GC6wH-h5xFT_TE3pwqRGNBZHvGswphFerIluL8thLFogi04dE6LrZqj4iM7dUFckupxo9bde_OfZ5osmj4Ubl5PQiwRCkBjW29rOcKT_e4zoUyowRM25qqXQpkJMOpNConZakKVwnqqH3sroccmqAQZXkf1Tuyq13yxy7-skoedE9iFrs8MHUk1r0Kvvv6_vSSQ9bNnN0KrwB9HeYElSAJpJQQm1Nw4k_yWb1V5xqXec3n4gDWQinUrL5cvMIh3yWqSlX60-gWCCp8VgDFUHaXiVfw2DfMvn5RF8DGeLQA2H-9z9G99TKbd24
+
+###
+
+GET {{url}}/employer/notification?XDEBUG_SESSION_START=PHPSTORM
+Accept: application/json
+Authorization: Bearer {{employer_authenticated_token_253_510001000}}
+
+###
+
+PUT {{url}}/employer/notification/5a56612b-d999-4081-a1f1-741d5d35e61b?XDEBUG_SESSION_START=PHPSTORM
+Accept: application/json
+Authorization: Bearer {{employer_authenticated_token_253_510001000}}
+
+###

@@ -1,0 +1,1 @@
+[29-Jan-2021 02:43:58 UTC] PHP Fatal error:  Class 'Illuminate\Http\Resources\Json\JsonResource' not found in /home/belsaa/public_html/app/Http/Resources/UserResource.php on line 11

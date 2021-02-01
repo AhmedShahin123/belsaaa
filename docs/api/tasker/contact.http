@@ -1,0 +1,16 @@
+GET https://saah.local/api/tasker/contact/contact_category?XDEBUG_SESSION_START=PHPSTORM
+Accept: application/json
+
+###
+
+POST http://saah.local/api/tasker/contact/contact?XDEBUG_SESSION_START=PHPSTORM
+Content-Type: application/json
+
+{
+    "subject": "s1",
+    "email": "asdasd@asdsad.asd",
+    "body": "adasdasd asd asd asd as",
+    "category_id": 1
+}
+
+###
